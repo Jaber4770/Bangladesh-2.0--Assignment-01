@@ -108,6 +108,10 @@ nav ul li button {
     background-color: white;
     border-radius: 16px;
     padding: 24px;
+    transition: 0.3s;
+}
+.piller-cart:hover{
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.267);
 }
 
 .piller-cart img {
