@@ -10,7 +10,7 @@ body {
     font-family: "Fira Sans", serif;
 }
 main, header{
-    padding: 0 180px;
+    padding: 0 180px 80px 180px;
     background-color: #f5f5f5;
 }
 
@@ -378,8 +378,10 @@ input {
 .newsletter {
     text-align: center;
     padding: 80px 100px;
+    padding: 100px;
     background-color: #09a15d85;
     border-radius: 24px;
+    
 }
 
 .newsletter h1 {
