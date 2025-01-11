@@ -68,7 +68,7 @@ nav ul li button {
     color: rgba(14, 14, 14, 1);
 }
 
-.banner-info button {
+.common-button {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
@@ -246,10 +246,11 @@ thead {
     background-color: #C6E4D6;
 }
 
-.th-border-right{
+.th-border-right {
     border-right: none;
 }
-.th-border-left{
+
+.th-border-left {
     border-left: none;
 }
 
@@ -258,4 +259,58 @@ td button {
     background-color: #C6E4D6;
     border: 1px solid gray;
     border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    gap: 15px;
+}
+
+/* recent-news */
+.recent-news h1 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.recent-news p {
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 32px;
+}
+.news-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.news-cart {
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    display: flex;
+    gap: 32px;
+}
+
+.news-cart img {
+    border-radius: 24px;
+}
+
+.news-cart h2 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.date-and-time {
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 32px;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.news-decription {
+    color: rgba(14, 14, 14, 0.70);
+}
+.middle-news-cart{
+    display: flex;
+    flex-direction: row-reverse;
 }
