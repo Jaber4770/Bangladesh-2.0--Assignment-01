@@ -146,6 +146,10 @@ nav ul li button {
     border-radius: 16px;
     border: 0px solid #5490F5;
     background: rgba(84, 144, 245, 0.20);
+    transition: 0.3s;
+}
+.vision-cart:hover{
+    background: rgba(84, 143, 245, 0.623);
 }
 
 .vision-cart h3 {
@@ -166,11 +170,17 @@ nav ul li button {
     border: 0px solid #09A15C;
     background: #C6E4D6;
 }
+.green-energy:hover {
+    background-color: #0bb367d5;
+}
 
 .Modern-Infrastructure {
     border-radius: 16px;
     border: 0px solid #FFC239;
     background: #F7EBCF;
+}
+.Modern-Infrastructure:hover {
+    background-color: #ffc94ad2;
 }
 
 .vision-btn {
