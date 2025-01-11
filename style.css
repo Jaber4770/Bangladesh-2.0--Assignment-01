@@ -199,6 +199,63 @@ nav ul li button {
     background-position: 25px 20px;
     color: rgba(14, 14, 14, 0.80);
 }
-.line-height{
- margin-top: -20px;
+
+.line-height {
+    margin-top: -20px;
+}
+
+/* Opinion matters section style */
+.opinion-matters h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.opinion-table-container {
+    padding: 32px;
+    background-color: white;
+    width: full;
+    border-radius: 16px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th,
+td {
+    border: 1px solid rgba(66, 64, 64, 0.521);
+    padding: 24px;
+}
+
+.opinion-table-container table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question {
+    flex: 1 1 0%;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #C6E4D6;
+}
+
+.th-border-right{
+    border-right: none;
+}
+.th-border-left{
+    border-left: none;
+}
+
+td button {
+    padding: 10px;
+    background-color: #C6E4D6;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
