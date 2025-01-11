@@ -8,12 +8,14 @@
 
 body {
     font-family: "Fira Sans", serif;
-    margin: 0 180px;
+}
+main, header{
+    padding: 0 180px;
     background-color: #f5f5f5;
 }
 
 section {
-    margin: 80px 0;
+    padding: 80px 0;
 }
 
 .common-button {
@@ -79,11 +81,6 @@ nav ul li button {
     color: rgba(14, 14, 14, 1);
 }
 
-
-
-.banner-img img {
-    /* width: 100%; */
-}
 
 /* Pillers of Bangladesh 2.0 style */
 .section-title {
@@ -405,7 +402,25 @@ input {
     border-bottom-right-radius: 0px;
     width: 600px;
 }
-.subscribe{
+
+.subscribe {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+/* footer style */
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 50px 160px;
+}
+ footer>h1{
+    margin-bottom: 32px;
+ }
+.footer-social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
 }
