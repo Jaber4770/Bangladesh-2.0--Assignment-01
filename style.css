@@ -180,14 +180,25 @@ nav ul li button {
     color: #FFF;
     font-weight: 600;
     border: none;
+    transition: 0.3s;
+}
+.vision-btn:hover{
+    background-color: white;
+    color: #5490F5;
 }
 
 .green-btn {
     background-color: #09A15C;
 }
+.green-btn:hover {
+    color: #09A15C;
+}
 
 .Modern-Infrastructure-btn {
     background-color: #FFC239;
+}
+.Modern-Infrastructure-btn:hover {
+    color: #FFC239;
 }
 
 /* Dr. Yunus quote */
