@@ -34,3 +34,39 @@ nav ul li button{
     border: 1px solid #006A50;
     cursor: pointer;
 }
+
+/* Banner style */
+.banner{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    margin-top: 30px;
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-info p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14,14,14,0.5);
+    padding-bottom: 16px;
+}
+.banner-info h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(14,14,14, 1);
+}
+.banner-info button{
+    font-weight: 600;
+    font-size: 18px;
+    color:#fff;
+    background-color: rgba(0,106,80,1);
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.banner-img img{
+    /* width: 100%; */
+}
