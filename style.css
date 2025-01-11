@@ -11,23 +11,27 @@ body {
     margin: 0 180px;
     background-color: #f5f5f5;
 }
-section{
+
+section {
     margin: 80px 0;
 }
+
 /* Nav style */
-nav ul{
+nav ul {
     display: flex;
     padding: 24px 0;
     align-items: center;
     justify-content: space-between;
 }
-nav ul li{
+
+nav ul li {
     font-size: 32px;
     font-weight: 700;
     color: #0E0E0E;
     list-style: none;
 }
-nav ul li button{
+
+nav ul li button {
     color: #006A50;
     border-color: #006A50;
     font-size: 18px;
@@ -40,7 +44,7 @@ nav ul li button{
 }
 
 /* Banner style */
-.banner{
+.banner {
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px;
@@ -50,57 +54,130 @@ nav ul li button{
     align-items: center;
     justify-content: center;
 }
-.banner-info p{
+
+.banner-info p {
     font-size: 24px;
     font-weight: 500;
-    color: rgba(14,14,14,0.5);
+    color: rgba(14, 14, 14, 0.5);
     padding-bottom: 16px;
 }
-.banner-info h1{
+
+.banner-info h1 {
     font-size: 56px;
     font-weight: 700;
-    color: rgba(14,14,14, 1);
+    color: rgba(14, 14, 14, 1);
 }
-.banner-info button{
+
+.banner-info button {
     font-weight: 600;
     font-size: 18px;
-    color:#fff;
-    background-color: rgba(0,106,80,1);
+    color: #fff;
+    background-color: rgba(0, 106, 80, 1);
     padding: 17px 34px;
     border: none;
     border-radius: 8px;
     margin-top: 24px;
 }
-.banner-img img{
+
+.banner-img img {
     /* width: 100%; */
 }
 
 /* Pillers of Bangladesh 2.0 style */
-.Pillers-of-bd h1{
+.section-title {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 32px;
 }
-.pillers-container{
+
+.pillers-container {
     display: flex;
-    gap:24px   
+    gap: 24px
 }
-.piller-cart{
+
+.piller-cart {
     border: 1px solid rgba(128, 128, 128, 0.274);
     background-color: white;
     border-radius: 16px;
     padding: 24px;
 }
-.piller-cart img{
+
+.piller-cart img {
     margin-bottom: 24px;
 }
-.piller-cart h3{
+
+.piller-cart h3 {
     font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.80);
     margin-bottom: 12px;
 }
-.piller-cart p{
+
+.piller-cart p {
     color: rgba(14, 14, 14, 0.70);
     font-weight: 400;
+}
+
+/* The vision of the future section style */
+
+.vision-cart-container {
+    margin: 32px 0;
+}
+
+.section-description {
+    color: rgba(14, 14, 14, 0.70);
+}
+
+.vision-cart-container {
+    display: flex;
+    gap: 24px;
+}
+
+.vision-cart {
+    padding: 32px;
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.vision-cart h3 {
+    margin: 24px 0 12px 0;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.vision-cart p {
+    color: rgba(14, 14, 14, 0.70);
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.green-energy {
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+}
+
+.Modern-Infrastructure {
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.vision-btn {
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: #5490F5;
+    color: #FFF;
+    font-weight: 600;
+    border: none;
+}
+
+.green-btn {
+    background-color: #09A15C;
+}
+
+.Modern-Infrastructure-btn {
+    background-color: #FFC239;
 }
