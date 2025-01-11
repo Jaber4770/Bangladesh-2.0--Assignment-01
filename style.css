@@ -27,6 +27,15 @@ section {
     border: none;
     border-radius: 8px;
     margin-top: 24px;
+    transition: 0.3s;
+    border: 1px solid rgba(0, 106, 80, 1);
+}
+.common-button:hover{
+    background-color: white;
+    text-align: rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-color: rgba(0, 106, 80, 1);;
+    color: rgba(0, 106, 80, 1);;
 }
 
 /* Nav style */
