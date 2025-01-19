@@ -460,3 +460,48 @@ footer {
     justify-content: center;
     margin-top: 32px;
 }
+
+
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    nav ul,
+    .banner,
+    .vision-cart-container,
+    .yunus-quote,
+    .pillers-container,
+    .news-container,
+    .donate-box,
+    .news-cart{
+        flex-direction: column;
+    }
+    main, 
+    header,
+    footer,
+    .donate-section p,
+    .news-cart,
+    table th, td{
+        padding: 5px 10px;
+    }
+    .banner-img{
+        width: 100vw;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .newsletter{
+        padding: 20px 20px;
+    }
+    .newsletter input{
+        width: 100px;
+        margin: 10px 0;
+    }
+    section,
+    footer{
+        margin: 30px 0px;
+    }
+    .donation-input{
+        width: 200px;
+        margin: 0;
+    }
+
+}
